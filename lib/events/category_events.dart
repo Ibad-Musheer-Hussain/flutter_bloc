@@ -12,4 +12,3 @@ class CategoryLoadEvent extends CategoryEvent {
   @override
   List<Object?> get props => [name];
 }
-

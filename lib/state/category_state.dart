@@ -1,3 +1,4 @@
+import 'package:bloc_practice/model/category_model.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class CategoryState extends Equatable {
@@ -10,7 +11,7 @@ class InitialCategoryState extends CategoryState {}
 class LoadingCategoryState extends CategoryState {}
 
 class LoadedCategoryState extends CategoryState {
-  final dynamic data;
+  final List<CategoryModel> data;
   LoadedCategoryState({required this.data});
 
   @override

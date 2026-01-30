@@ -52,13 +52,6 @@ class Routes {
           builder: (BuildContext context) => const MyHomePage(),
         );
 
-      // case RouteNames.refundScreen:
-      //   return MaterialPageRoute(
-      //       builder: (BuildContext context) => const RefundScreen());
-      // case RouteNames.myOrdersScreen:
-      //   return MaterialPageRoute(
-      //       builder: (BuildContext context) => const MyOrdersScreen());
-
       default:
         return MaterialPageRoute(
           builder:
