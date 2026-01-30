@@ -1,0 +1,63 @@
+name: bloc_practice
+description: A Flutter BLoC practice project
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # Backend & API
+  supabase_flutter: ^2.0.0
+  http: ^1.1.0
+
+  # Environment Variables
+  flutter_dotenv: ^5.1.0
+
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+
+  # UI & Media
+  photo_view: ^0.14.0
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.7
+  lottie: ^3.0.0
+
+  # Utilities
+  fluttertoast: ^8.2.4
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+  firebase_messaging: ^14.7.10
+
+  # Internationalization
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/.env
+
+  # fonts:
+  #   - family: Urbanist
+  #     fonts:
+  #       - asset: fonts/Urbanist-Regular.ttf
+  #       - asset: fonts/Urbanist-Bold.ttf
+  #         weight: 700
